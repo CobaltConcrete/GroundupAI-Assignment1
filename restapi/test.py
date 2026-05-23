@@ -7,7 +7,6 @@ file_path = 'M6.csv'
 
 # Open the file in binary mode
 with open(file_path, 'rb') as file:
-    print('hi')
     # Define the file dictionary; the key ('file' in this case) is the name of the form field
     files = {'file': (file_path, file)}
     response = requests.post(url, files=files)
