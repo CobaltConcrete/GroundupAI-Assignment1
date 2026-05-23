@@ -3,6 +3,8 @@
 ## Overview
 Simple implementation using FastAPI, accepts input CSV log file and outputs a report summary of the logs
 
+Github: 
+
 ## Tech Stack
 - Python 3.14.5
 - FastAPI
@@ -41,3 +43,14 @@ Accepts CSV file with log data, does processing on it and returns a report smmar
     - mean
     - std
     - kurtosis
+
+## How to Run
+#### Navigate to project root
+```bash
+cd GroundupAI-Assignment1
+```
+
+#### Build and start application
+```bash
+docker compose up --build
+```

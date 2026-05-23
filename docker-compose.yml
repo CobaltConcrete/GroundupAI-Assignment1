@@ -1,7 +1,7 @@
 services:
   api:
     build:
-      context: ./restapi
+      context: .
+      dockerfile: restapi/Dockerfile
     ports:
       - "10000:10000"
-    container_name: restapi-service
